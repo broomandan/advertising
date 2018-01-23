@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdTrackingManager.cs" />
+    <Compile Include="ObjectFactory.cs" />
     <Compile Include="IAdTrackingManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

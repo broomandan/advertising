@@ -41,8 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Advertiser.cs" />
+    <Compile Include="AdvertisersFileAccess.cs" />
+    <Compile Include="Helpers\FileToObjectMapper.cs" />
+    <Compile Include="Helpers\IDesrializeFromText.cs" />
+    <Compile Include="Helpers\IFileToObjectMapper.cs" />
     <Compile Include="IAdvertisersAccess.cs" />
+    <Compile Include="ObjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DataFiles\advertisers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

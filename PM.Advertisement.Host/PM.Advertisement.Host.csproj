@@ -48,5 +48,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PM.Adevertisement.Access\PM.Adevertisement.Access.csproj">
+      <Project>{d843c313-22f0-4a21-a434-48a1e465dc46}</Project>
+      <Name>PM.Adevertisement.Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.Advertisement.Engine\PM.Advertisement.Engine.csproj">
+      <Project>{E9239159-5D53-4F81-8A8B-410A5C33A5C1}</Project>
+      <Name>PM.Advertisement.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PM.Advertisement.Manager\PM.Advertisement.Manager.csproj">
+      <Project>{05F2CF23-B589-49F1-9105-3A6D5A7BBE44}</Project>
+      <Name>PM.Advertisement.Manager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
