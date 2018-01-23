@@ -7,7 +7,7 @@ namespace PM.Adevertisement.Access
 {
     internal class AdvertisersFileAccess : IAdvertisersAccess
     {
-        private const string AdvertiserList = @"DataFiles\advertisers.txt";
+        private const string AdvertiserList = @"DataFiles\advertisers.txt"; //TODO: Move to config file
         private readonly IFileToObjectMapper<Advertiser> _fileToObjectMapper;
 
         public AdvertisersFileAccess(IFileToObjectMapper<Advertiser> fileToObjectMapper)
